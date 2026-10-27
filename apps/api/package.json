@@ -1,0 +1,16 @@
+{
+  "name": "@factory-safety/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@factory-safety/core": "*",
+    "@factory-safety/feishu-adapter": "*",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "classification": "sanitized-counts-only",
+  "source_strategy": "clean-room-reimplementation",
+  "production_source_files_copied": 0,
+  "checks": {
+    "core_and_adapter_tests": {
+      "status": "passed",
+      "passed": 8,
+      "failed": 0
+    },
+    "privacy_scan": {
+      "status": "passed",
+      "findings": 0
+    },
+    "frontend_build": {
+      "status": "passed",
+      "modules_transformed": 29
+    },
+    "api_smoke_test": {
+      "status": "passed",
+      "health": true,
+      "demo_records": 3
+    },
+    "feishu_mock_sso": {
+      "status": "passed",
+      "state_verified": true,
+      "external_request_count": 0
+    },
+    "dependency_audit": {
+      "status": "passed",
+      "known_vulnerabilities": 0
+    },
+    "dependency_license_inventory": {
+      "status": "passed",
+      "unique_packages": 130,
+      "missing_license_count": 0
+    }
+  },
+  "validation_note": "Frontend build passed with a locally bundled Node.js 20.18 runtime that emitted a Vite version warning. The repository requires Node.js 20.19 or newer for supported builds."
+}

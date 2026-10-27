@@ -1,0 +1,20 @@
+[
+  {
+    "id": "demo_user_inspector_a",
+    "displayName": "巡检员甲",
+    "role": "INSPECTOR",
+    "department": "示例安全组"
+  },
+  {
+    "id": "demo_user_owner_a",
+    "displayName": "责任人甲",
+    "role": "OWNER",
+    "department": "示例生产组"
+  },
+  {
+    "id": "demo_user_reviewer_a",
+    "displayName": "复核员甲",
+    "role": "REVIEWER",
+    "department": "示例安全组"
+  }
+]

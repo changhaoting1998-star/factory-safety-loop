@@ -1,0 +1,11 @@
+{
+  "unique_packages": 130,
+  "license_counts": {
+    "MIT": 117,
+    "ISC": 9,
+    "BSD-3-Clause": 2,
+    "Apache-2.0": 1,
+    "CC-BY-4.0": 1
+  },
+  "missing_license_count": 0
+}

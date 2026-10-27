@@ -1,0 +1,7 @@
+{
+  "name": "@factory-safety/feishu-adapter",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js"
+}

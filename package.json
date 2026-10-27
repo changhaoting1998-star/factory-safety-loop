@@ -1,0 +1,20 @@
+{
+  "name": "factory-safety-loop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm --workspace @factory-safety/web run dev",
+    "dev:api": "npm --workspace @factory-safety/api run dev",
+    "test": "node --test tests/*.test.mjs",
+    "privacy:scan": "node scripts/privacy-scan.mjs",
+    "verify": "npm run test && npm run privacy:scan"
+  },
+  "engines": {
+    "node": ">=20.19"
+  }
+}
